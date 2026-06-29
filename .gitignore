@@ -1,0 +1,75 @@
+# Build output
+/build/
+/out/
+/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Scala / sbt
+.bsp/
+.idea/
+.vscode/
+.metals/
+.bloop/
+.scala-build/
+target/
+project/target/
+project/project/
+hw/spinal/target/
+hw/spinal/project/target/
+hw/spinal/project/project/
+hw/spinal/cpu0.yaml
+
+# Firmware / generated binaries
+*.elf
+*.bin
+*.hex
+*.map
+*.memb
+*.o
+*.a
+
+# Local audio and datasets
+*.wav
+*.ogg
+*.mp3
+*.flac
+/data/
+/datasets/
+
+# Gowin / FPGA generated files
+*.fs
+*.gprj
+*.prj
+*.db
+*.jou
+*.log
+*.rpt
+*.rpt.txt
+*.html
+impl/
+*.bit
+*.xsa
+*.xpr
+
+# Simulation and waves
+simv*
+ucli.key
+csrc/
+*.vcd
+*.fst
+*.fsdb
+*.vpd
+*.wdb
+
+# OS/editor
+.DS_Store
+*~
+*.swp
