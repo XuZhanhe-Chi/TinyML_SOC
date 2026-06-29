@@ -8,6 +8,10 @@ VexRiscv SoC + TinyML_NPU + QSPI XIP firmware + I2S microphone + UART/LED demo
 
 本仓库负责 SoC 集成、板级构建和实时 KWS demo。NPU、CPU 和 RTOS 分别通过 `third_party/TinyML_NPU`、`third_party/VexRiscv` 和 `third_party/FreeRTOS-Kernel` 引入。
 
+![Tang Primer 25K realtime KWS demo](docs/assets/tang-primer-25k-demo.png)
+
+图中为 Tang Primer 25K 与 I2S 麦克风连接示意。
+
 ## 系统路径
 
 ```mermaid
